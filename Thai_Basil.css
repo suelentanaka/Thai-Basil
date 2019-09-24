@@ -1,0 +1,354 @@
+
+/* Minami, Suelen, Natsumi, Chin and Emre Acik on 24th to 25th Jan 2018 */
+
+html.home {
+	background-image: url("img/Pad Thai 2 dkbg.jpg");
+	background-position: top center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+}
+
+
+body.home {
+  	overflow: scroll;
+}
+
+.home div {
+	text-align: center;
+	position: fixed;
+	left: 80px;
+	top: 0px;
+	bottom: 0px;
+	margin-top: 0px;
+	border-top-width: 0px;
+	width: 15%;
+	min-width: 200px;
+	padding: 40px 20px;
+	border-top: 0px;
+	background-color: #2F2F2F;
+  	opacity: .8;
+  
+}
+
+
+.home h1 {
+	font-size: 2.5em;
+	padding-bottom: 50px;
+	color: #CFD1CF;
+	border-bottom: 1px solid #CFD1CF;
+  	font-weight: 500;
+  	font-family: 'Dancing Script', cursive;
+  
+}
+
+
+.home a {
+	font-size: 1.4em;
+	color: #CFD1CF;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+  
+}
+
+.home a:hover {
+  color: white;
+}
+
+
+/* common header except for home */
+header {
+	background: #2f2f2f;
+    opacity: 0.8;
+    overflow: hidden;
+    padding: 10px 30px;
+}
+
+.logo {
+	float: left;
+}
+
+.logo p {
+	margin: 0;
+    padding: 0 !important;
+    text-align: left !important;
+}
+
+.logo a {
+	font-family: 'Dancing Script', cursive;
+    color: #CFD1CF;
+   	font-size: 30px;
+    text-decoration: none;
+}
+
+.nav {
+    float: right;
+	margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.nav li + li {
+	margin-left: 30px;
+}
+
+.nav li a {
+	color: #CFD1CF;
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+
+}
+
+header a:hover {
+	color: #fff;
+}
+
+
+/* common footer except for home */
+footer {
+    position: relative;
+    bottom: 0;
+	background: #2f2f2f;
+    box-sizing: border-box;
+    opacity: 0.8;
+	padding: 1px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+footer a {
+	float: right;
+	padding: 2px 5px;
+}
+
+#footer {
+	color: #CFD1CF;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.7em;
+	text-align: center;
+}
+
+footer.about_page {
+	position: fixed;
+}
+
+
+
+.about {
+	background-image: url("img/Basil dkbg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.about h1 {
+	padding-top: 50px;
+	font-size: 4em;
+	color: white;
+  	font-weight: 500;
+  	font-family: 'Dancing Script', cursive;
+  	text-align: center;
+}
+
+.about p {
+	font-size: 1.4em;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	padding: 0px 25% 0px 25%;
+}
+
+
+.menu {
+	background-image: url("img/pepper_bg.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: center;
+}
+
+
+.menu h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 3em;
+	font-weight: 500;
+	text-align: center;
+	color: white;
+}
+
+.food {
+	list-style-type: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	color: white;
+
+}
+
+.price {
+	padding-bottom: .6%;
+	list-style-type: none;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.0em;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+.menu ul {
+	padding-left: 0px;
+}
+
+.food-price {
+	padding-bottom: 50px;
+}
+/*SU*/
+
+
+
+.contact{
+	background-image: url("img/pepper_bg.jpg");
+	background-position: top center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	text-align: left;
+	font-size: 1.4em;
+	color: #CFD1CF;
+	text-decoration: none;
+	font-family: 'Quicksand', sans-serif;
+}
+
+
+
+#ig{
+	margin-right: 4px;
+}
+
+.icon{
+
+	text-align: right;
+
+}
+
+
+#home_foot{
+	box-sizing: border-box;
+    opacity: 0.8;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	text-align: right;
+	color: white;
+	background-color: transparent;	
+}
+
+
+/* order */
+.order {
+	background-image: url("img/pepper_bg.jpg");
+}
+
+form {
+	color: #fff;
+    margin: 0 auto;
+	width: 500px; /*up to other pages*/
+}
+
+label {
+	color: #fff;
+    margin: 15px 0;
+	text-align: left;
+}
+
+input {
+	padding: 10px;
+}
+
+label, input {
+	display: block;
+}
+
+.name {
+	float: left;
+	width: 50%;
+}
+
+.name input[type="text"] {
+	width: 80%;
+}
+
+.tel {
+	clear: both;
+	text-align: left;
+}
+
+.tel label {
+	padding-top: 15px;
+}
+
+input[type="tel"] {
+	width: 20%;
+}
+
+.tel input[type="tel"],
+span {
+	display: inline-block;
+}
+
+.pickup,
+.menuList {
+	text-align: left;
+}
+
+select {
+    height: 40px;
+	width: 95%;
+}
+
+.menuList div {
+	display: inline-block;
+    width: 40%;
+}
+
+input[type="checkbox"], input[type="checkbox"] + span {
+	display: inline-block;
+}
+
+a.submit {
+	background: #51ab5c;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    float: none;
+    font-weight: bold;
+    margin: 40px auto 0;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+    margin-bottom: 150px;
+}
+
+a.submit:hover {
+	opacity: 0.7;
+}
